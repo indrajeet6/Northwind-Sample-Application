@@ -1,9 +1,21 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
+h1{
+    align-content:center;
+    align-items:center;
+    align-self:center;
+    text-align:center;
+}
+LayoutTemplate {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
