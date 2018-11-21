@@ -7,7 +7,7 @@
     </div>
     <div class="jumbotron">
 
-        <asp:Login ID="Login1" runat="server" BorderStyle="None" DisplayRememberMe ="false" TitleText="" >
+        <asp:Login ID="Login1" runat="server" BorderStyle="None" DisplayRememberMe ="false" TitleText="" OnAuthenticate="Login1_Authenticate" >
         </asp:Login>
 
     </div>
