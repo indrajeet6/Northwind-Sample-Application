@@ -10,7 +10,7 @@
 namespace Northwind_Sample_Application {
     
     
-    public partial class _Default {
+    public partial class Contact {
         
         /// <summary>
         /// UserName control.
@@ -31,6 +31,15 @@ namespace Northwind_Sample_Application {
         protected global::System.Web.UI.WebControls.TextBox Password;
         
         /// <summary>
+        /// RoleList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList RoleList;
+        
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -38,14 +47,5 @@ namespace Northwind_Sample_Application {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

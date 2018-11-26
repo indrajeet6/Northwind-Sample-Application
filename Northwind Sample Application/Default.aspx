@@ -7,8 +7,28 @@
     </div>
     <div class="jumbotron">
 
-        <asp:Login ID="Login1" runat="server" BorderStyle="None" DisplayRememberMe ="false" TitleText="" OnAuthenticate="Login1_Authenticate" >
-        </asp:Login>
+        <table class="nav-justified">
+            <tr>
+                <td style="width: 79px; height: 40px;"><strong>Login ID</strong></td>
+                <td style="height: 40px">
+                    <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 79px; height: 40px"><strong>Password</strong></td>
+                <td style="height: 42px">
+                    <asp:TextBox ID="Password" runat="server" TextMode ="password"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 79px" >
+                    <asp:Button ID="Button1" runat="server" Height="29px" OnClick="Button1_Click" Text="Login" Width="165px" />
+                </td>
+                <td >
+                    <asp:Button ID="Button2" runat="server" Height="29px" Text="New User" OnClick="Button2_Click" Width="131px" />
+                </td>
+            </tr>
+        </table>
 
     </div>
 
